@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 100px;
+            width: 100px;
+            border-radius: 50px;
+            background-color: aqua;
+            position: relative;
+            animation-name: one;
+            animation-duration: 2s;
+            animation-delay: -3;
+            
+        }
+        @keyframes one{
+            
+            0%{left: 20%;
+                top: 300px;
+
+            }
+            25%{
+                left: 40%;
+                top:0px
+            }
+            50%{
+                left: 60%;
+                top:300px
+            }
+            75%{
+                left:80%;
+                top: 0px;
+            }
+            100%{
+                left: 100%;
+                top: 300px;
+            }
+        }
+    
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>

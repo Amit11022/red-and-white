@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+       .main{
+        display: inline-grid;
+        grid-template-columns: auto auto auto;
+        gap: 10px 10px ;
+        box-sizing: border-box;
+        border: 2px solid black;
+        
+       }
+
+       #sub-main1{
+        background-color: aqua;
+       }
+
+       #sub-main2{
+        grid-column-start: 2;
+        grid-column-end: 4;
+        background-color: silver;
+      }
+
+      #sub-main3{
+        grid-column-start:1 ;
+        grid-column-end:3;
+        background-color: brown;
+      }
+
+      #sub-main4{
+        background-color: aqua;
+      }
+      
+      #sub-main5{
+        background-color: aqua;
+      }
+
+      #sub-main6{
+        grid-column-start: 2;
+        grid-column-end: 4;
+        background-color: yellow;
+      }
+
+      #sub-main7{
+        grid-column-start:1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        background-color: blueviolet;
+      }
+     
+
+      #sub-main14{
+        grid-column-start:2 ;
+        grid-row-start:1;
+        grid-row-end: 3;
+        background-color: chartreuse;
+      }
+
+      #sub-main16{
+        grid-column-start: 1;
+        grid-row-start: 2;
+        grid-row-end: 4;
+        background-color: red;
+        
+      }
+       
+       #sub-main18{
+        grid-column-start: 3;
+        grid-row-start: 2;
+        grid-row-end: 4;
+        background-color: blue; 
+      }
+
+       .do-main{
+        display: inline-grid;
+        grid-template-columns: auto auto ;
+        gap: 10px 10px ;
+        box-sizing: border-box;
+        border: 2px solid black;
+       }
+
+      #sub-main19{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        background-color: dodgerblue;
+      }
+
+       #sub-main21{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        background-color: dodgerblue;
+      }
+      #sub-main23{
+        grid-row-start: 3;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        background-color: dodgerblue;
+        background-color: crimson;
+      }
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="child" id="sub-main1">1</div>
+        <div class="child" id="sub-main2">2</div>
+        <div class="child" id="sub-main3">3</div>
+        <div class="child" id="sub-main4">4</div>
+        <div class="child" id="sub-main5">5</div>
+        <div class="child" id="sub-main6">6</div>       
+    </div>
+
+    <div class="main">
+        <div class="child" id="sub-main7">1</div>
+        <div class="child" id="sub-main8">2</div>
+        <div class="child" id="sub-main9">3</div>
+        <div class="child" id="sub-main10">4</div>
+        <div class="child" id="sub-main11">5</div>
+        <div class="child" id="sub-main12">6</div>
+    </div>
+
+     <div class="main">
+        <div class="child" id="sub-main13">1</div>
+        <div class="child" id="sub-main14">2</div>
+        <div class="child" id="sub-main15">3</div>
+        <div class="child" id="sub-main16">4</div>
+        <div class="child" id="sub-main17">5</div>
+        <div class="child" id="sub-main18">6</div>
+    </div>
+
+    <div class="do-main">
+        <div class="child" id="sub-main19">1</div>
+        <div class="child" id="sub-main20">2</div>
+        <div class="child" id="sub-main21">3</div>
+        <div class="child" id="sub-main22">4</div>
+        <div class="child" id="sub-main23">5</div>
+        <div class="child" id="sub-main24">6</div>
+        <div class="child" id="sub-main25">7</div>
+        <div class="child" id="sub-main26">8</div>
+        <div class="child" id="sub-main27">9</div>
+    </div>
+</body>
+</html>

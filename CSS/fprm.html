@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS form</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        form {
+            margin-top: 300px;
+            margin-bottom: 300px;
+            margin-left: 400px;
+            margin-right: 600px;
+            padding: 40px;
+            background-color: white ;
+        }
+
+
+        body {
+
+            background-color:tomato; 
+        }
+
+        .get {
+            height: 35px;
+            width: 250px;
+        }
+
+        .net {
+            height: 3px;
+            width: 250px;
+            background-color: tomato;
+        }
+
+        .sam {
+            width: 250px;
+            height: 40px;
+            background-color: tomato;
+            color: white;
+            cursor: pointer;
+            border: none;
+            border-radius: 6px;
+
+        }
+        img{
+           
+            width: 575px;
+            height: 300px;
+        }
+
+       
+    </style>
+</head>
+
+<body>
+    <h1 align="center" style="color: white;">LOGIN FORM PAGE</h1>
+    <form>
+
+        <table cellspacing="20">
+            <tr>
+                <th>
+                    <h1>LOGIN</h1>
+                </th>
+
+                <td rowspan="10"><img src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg" ></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="net"></div>
+                </td>
+            </tr>
+
+            <tr>
+
+                <td align="center"> Explore the world</td>
+            </tr>
+
+            <tr>
+                <td><b>Email</b></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="email" name="Email" id="" placeholder="abc@ example.com" class="get">
+                </td>
+            </tr>
+
+            <tr>
+
+                <td>
+                    <b>Password</b>
+                </td>
+
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="password" name="Password" id="" placeholder="enter your password" class="get">
+                </td>
+            </tr>
+
+            <tr align="center">
+                <td>
+                    <input type="submit" value="Submit" class="sam">
+                </td>
+            </tr>
+
+            <tr>
+                <td align="center" style="cursor: pointer;">
+                    forget password?
+                </td>
+            </tr>
+
+        </table>
+
+    </form>
+
+</body>
+
+</html>

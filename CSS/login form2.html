@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            
+        }
+        .main{
+            align-content: center;
+            border: 2px solid black;
+            height: 500px;
+            width: 800px;
+            margin: auto;
+            margin-top: 10%;
+            
+           
+        
+        }
+        .left{
+            height: 100%;
+            width: 50%;
+
+            border: 2px solid lightgreen;
+            float: left;
+            color: white;
+            background-color:blue;
+            box-sizing: border-box;
+            /* border-radius: 10px; */
+            border-top-right-radius: 20%;
+            border-bottom-right-radius: 20%;
+            text-align: center;
+            padding-top: 15%;
+            
+        }
+        .right{
+            height: 100%;
+            width: 50%;
+            float: right;
+            background-color: white;
+            border: 2px solid lightgreen;
+            box-sizing: border-box;
+            text-align: center;
+            padding: 10%;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="left"><h2>Welcome Back!</h2><p>Provide your personal details to use all features</p>
+        <input type="button" value="SIGN IN">
+        </div>
+        <div class="right"><h2>Register With</h2>
+            <p><i class="fa-brands fa-google"></i><i class="fa-brands fa-facebook"></i><i class="fa-brands fa-linkedin"></i><i class="fa-brands fa-github"></i></p>
+            <h3>OR</h3>
+            <p>Fill Out the follwing info For registration</p>
+            <input type="text" placeholder="Name" name="" id=""><br>
+            <input type="email" placeholder="Email" name="" id=""><br>
+            <input type="password" placeholder="Password" name="" id=""><br>
+            <input type="button" value="SIGN UP" id=""><br>
+        </div>
+    </div>
+</body>
+</html>

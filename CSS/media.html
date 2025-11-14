@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        .nav{
+            height:100px;
+            width: 100%;
+            background-color: orange;
+            display: flex;
+            
+        }
+        .nav1{
+            height: inherit;
+            width: 45%;
+        }
+        .nav2{
+            height: inherit;
+            width: 45%;
+        }
+        @media (min-width: 320px) and (max-width:480px)  {
+            .nav{
+                flex-direction: column;
+                           
+             } 
+             .main{
+                flex-direction: column;
+             }
+             .sub-main{
+                flex-direction: nowrap;
+             }
+            }
+
+              @media (min-width: 481px) and (max-width:768px)  {
+            .nav{
+                flex-direction: column;
+                       
+             } 
+             .main{
+                flex-direction: column;
+             }
+             .sub-main{
+                flex-wrap: nowrap;
+             }
+            }
+              @media (min-width: 769x) and (max-width:1024px)  {
+            .nav{
+                flex-direction: column;
+                flex-wrap: wrap;           
+             } 
+             .main{
+                flex-direction: column;
+             }
+             .sub-main{
+                flex-direction: column;
+             }
+            
+        }
+        .main{
+            height: 100px;
+            width: 100%;
+            background-color: yellowgreen;
+            display: flex;
+        }
+        .sub-main{
+            height: 100px;
+            width: 100%;
+            background-color: blue;
+            display: flex;
+
+        }
+        .mn1{
+            height: inherit;
+            width: 100%;
+            background-color: blue;
+        }
+        .mn2{
+            height: inherit;
+            width: 100%;
+            background-color: blue;
+        }
+        .mn3{
+            height: inherit;
+            width: 100%;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <div class="nav1">1</div>
+        <div class="nav2">2</div>
+    </div>
+    <div class="main">main</div>
+    <div class="sub-main">
+        <div class="mn1">1</div>
+        <div class="mn2">2</div>
+        <div class="mn3">3</div>
+    </div>
+</body>
+</html>
